@@ -4,7 +4,7 @@ int main()
 {
 	int h = 0,m = 0,s = 0;
 	double i;
-    system("cls");
+    	system("cls");
 	printf("Please enter a time format in HH:MM:SS");
 	scanf("%d%d%d",&h,&m,&s);
 	start:
@@ -14,7 +14,7 @@ int main()
 		{
 			for(s;s<60;s++)
 			{
-                system("cls");
+                		system("cls");
 				printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t%d:%d:%d",h,m,s);
 				if(h<12)
 				{
